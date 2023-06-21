@@ -1,11 +1,16 @@
 {
   "name": "Discord Token Swapper",
   "description": "Safely switch between Discord accounts using tokens",
-  "version": "1.0",
+  "version": "1.1",
+
   "manifest_version": 2,
-  "icons": {
-    "48": "icons/swapper.png"
+  "icons": {"48": "swapper.png"},
+
+  "browser_action": {
+    "default_popup": "index.html",
+    "default_icon": "swapper.png"
   },
+
   "background": {
     "scripts": ["swapper.js"],
     "persistent": true
