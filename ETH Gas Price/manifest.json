@@ -1,0 +1,24 @@
+{
+   "manifest_version": 3,
+   "name": "ETH Gas Now: Private, Secure, Lightweight",
+   "version": "1.0",
+   "background": {
+     "service_worker": "background.js"
+   },
+   "permissions": [
+    "scripting"
+   ],
+   "host_permissions": [
+    "https://api.etherscan.io/", 
+    "*://*.etherscan.io/*"
+   ],
+   "icons": {
+     "128": "gas-128.png"
+   },
+   "action": {
+     "default_icon": "gas-128.png",
+     "default_title": "Ethereum Gas Now",
+     "default_popup": ""
+   }
+ }
+ 
